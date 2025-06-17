@@ -202,3 +202,16 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
+//* =================== && and || Operators ===================
+// ? && (AND) and || (OR) are logical operators used to combine or compare boolean values
+// ? For && outcome is TRUE only if all conditions are true
+console.log(true&&true) // true
+console.log(true&&false) // false
+console.log(false&&true) // false
+console.log(false&&false) // false
+
+// ? For || outcome is TRUE if any one or all are ture
+console.log(true||true) // true
+console.log(true||false) // true
+console.log(false||true) // true
+console.log(false||false) // false
