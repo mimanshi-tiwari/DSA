@@ -219,3 +219,10 @@ console.log(false||false) // false
 
 console.log(7%10) // 7, the remainder when 7 is divided by 10,to get last value of number
 console.log(Math.floor(7/10)) // 0, the quotient when 7 is divided by 10, to get carry value of number
+
+
+// ! 65 - Char code of 'A'
+// ! 90 - Char code of 'Z' (65+26-1)
+// ! 97 - Char code of 'a'
+// ! 122 - Char code of 'z' (97+26-1)
+// ! 48 - Char code of '0'
