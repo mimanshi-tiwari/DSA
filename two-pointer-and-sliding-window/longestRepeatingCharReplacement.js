@@ -1,6 +1,6 @@
 /**
  * TODO: https://leetcode.com/problems/longest-repeating-character-replacement/
-* !IMPORTANT
+ * !IMPORTANT
     * O(n) time complexity
     * O(1) space complexity, hash only contains 26 characters
  * @param {string} s

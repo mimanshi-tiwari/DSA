@@ -25,7 +25,6 @@ class MinHeap {
     
     heapifyUp(currentIdx) {
         let parentIdx = this.getParentIndex(currentIdx)
-        let swap = null
         while(this.heap[parentIdx] > this.heap[currentIdx]) {
             [this.heap[parentIdx], this.heap[currentIdx]] =  [ this.heap[currentIdx], this.heap[parentIdx]]
             currentIdx = parentIdx
